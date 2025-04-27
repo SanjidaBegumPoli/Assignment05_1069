@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:assignment05/listview_page.dart';
 import 'package:assignment05/gridview_page.dart';
+import 'package:assignment05/landing_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Flutter App",
+      title: "Assignment App",
       theme: ThemeData.dark(),
       
-      home: ListviewPage(), 
+      home: LandingPage(), 
     );
   }
 }
